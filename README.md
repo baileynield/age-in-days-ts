@@ -1,4 +1,4 @@
-# TypeScript ETA Calculator
+# TypeScript Age In Days Calculator
 
 This app takes in age in years and displays how old someone is in approximate days.
 
@@ -18,4 +18,4 @@ This app takes in age in years and displays how old someone is in approximate da
 
 Run Project Using GitHub pages
 
-- https://baileynield.github.io/towers-of-hanoi/
+- https://baileynield.github.io/age-in-days-ts/
