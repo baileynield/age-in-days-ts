@@ -34,6 +34,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXdsa2llbm8wcnFlZWlhaTM4dWxvNWpyZ3ZlcjN0a2NxemszY3huOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uDiKE7Ue68u25wdfAk/giphy.webp');
+  background-size: contain;
 }
 
 h1 {
