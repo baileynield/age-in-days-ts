@@ -5,11 +5,14 @@ import styles from "./Calculator.module.css"
 const Calculator: React.FC = () => {
     const [name, setName] = useState("");
     const [age, setAge] = useState<number | string>("");
+    // This is what handles the display of age in days
     const [ageInDays, setAgeInDays] = useState<number | null>(null);
 
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+        // Prevent the page from refreshing wwhen the user clicks submit
         event.preventDefault();
 
+        // Only show the result if the user has put in an age
         if (typeof age === "number") {
         setAgeInDays(age * 365);            
         } else {
@@ -20,6 +23,9 @@ const Calculator: React.FC = () => {
 
     const handleAgeChange = (event: React.ChangeEvent<HTMLInputElement>): void => {
         const newAge = event.target.value;
+        // If input is an empty string, allow the empty string. They won't be able to clear the number if we don't have this. 
+        // Because the value we get from the input box always comes 
+        // back as a string, cast the value as type number.
         setAge(newAge === "" ? "" : Number(newAge));
     };
 

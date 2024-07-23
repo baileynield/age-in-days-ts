@@ -8,7 +8,7 @@ This app takes in distance to a destination and speed in MPH to display the time
     - git clone // **** ADD HERE *****
 
 2. CD into the repository folder
-    - cd eta-calculator-ts
+    - cd age-in-days-ts
 
 3. Run npm install
     - npm install
