@@ -1,11 +1,11 @@
 # TypeScript ETA Calculator
 
-This app takes in distance to a destination and speed in MPH to display the time to the destination.
+This app takes in age in years and displays how old someone is in approximate days.
 
 ## Run Project On Local Machine
 
 1. Clone repository to your local machine
-    - git clone // **** ADD HERE *****
+    - git clone git@github.com:baileynield/age-in-days-ts.git
 
 2. CD into the repository folder
     - cd age-in-days-ts
@@ -18,4 +18,4 @@ This app takes in distance to a destination and speed in MPH to display the time
 
 Run Project Using GitHub pages
 
-// ADD LINK HERE ******
+- https://baileynield.github.io/towers-of-hanoi/
